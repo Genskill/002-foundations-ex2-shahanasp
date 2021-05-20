@@ -27,15 +27,15 @@ void pyramid_two(int n) {
 }
 
 int main(void) {
-  int ch = get_int("\nEnter type of pattern (1 or 2):\n");
+  int ch = get_int(" ");
   if (ch == 1) {
-    int row = get_int("enter no of rows: ");
+    int row = get_int(" ");
     printf("\n");
     pyramid_one(row);
   } else {
     if (ch == 2) {
 
-      int row = get_int("enter no of raws: ");
+      int row = get_int(" ");
       pyramid_two(row);
     }
   }
